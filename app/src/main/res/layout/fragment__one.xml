@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment_One"
+    android:background="@mipmap/ic_launcher_muz_foreground">
+
+    <TextView
+        android:id="@+id/al"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ALYMBEK"
+        android:gravity="center"
+        />
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="996"
+        android:gravity="center"
+        android:layout_margin="40dp"
+        />
+
+</FrameLayout>
